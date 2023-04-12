@@ -33,9 +33,10 @@ public class Controller extends HttpServlet {
 		////////////////////////////////
 	String elNombre=request.getParameter("nombre");
 	String elApellido=request.getParameter("apellidos");
+	//por consola//
 	System.out.println("El nombre es: "+ elNombre);
 	System.out.println("Los apellidos son: "+ elApellido);
-	
+	///////////////////////////////////
 	PrintWriter out=response.getWriter();
 	out.append(elNombre);
 	
